@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mappings PUBLIC "-//DOZER//DTD MAPPINGS//EN" "http://dozer.sourceforge.net/dtd/dozerbeanmapping.dtd">
+<mappings>
+	<mapping wildcard="true" map-id="DEF_MAPPING_PROPIEDAD_PROPIEDADVO">
+		<class-a>es.indra.agrega.jmx.PropiedadImpl</class-a>
+		<class-b>es.indra.agrega.jmx.PropiedadVO</class-b>
+	</mapping>	
+	<mapping wildcard="true" map-id="DEF_MAPPING_PROPIEDADVO_PROPIEDAD">
+		<class-a>es.indra.agrega.jmx.PropiedadVO</class-a>
+		<class-b>es.indra.agrega.jmx.PropiedadImpl</class-b>
+	</mapping>	
+</mappings>

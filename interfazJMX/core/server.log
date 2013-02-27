@@ -1,0 +1,30 @@
+2012-06-29 12:01:28,729 INFO  [org.hibernate.cfg.Environment] Hibernate 3.2.6
+2012-06-29 12:01:28,745 INFO  [org.hibernate.cfg.Environment] hibernate.properties not found
+2012-06-29 12:01:28,745 INFO  [org.hibernate.cfg.Environment] Bytecode provider name : cglib
+2012-06-29 12:01:28,745 INFO  [org.hibernate.cfg.Environment] using JDK 1.4 java.sql.Timestamp handling
+2012-06-29 12:01:28,808 INFO  [org.hibernate.cfg.Configuration] Reading mappings from file: C:\svn\desarrollo\04_Subsistemas\interfazJMX\core\target\src\es\indra\agrega\jmx\Propiedad.hbm.xml
+2012-06-29 12:01:28,855 DEBUG [org.hibernate.util.DTDEntityResolver] trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+2012-06-29 12:01:28,855 DEBUG [org.hibernate.util.DTDEntityResolver] recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+2012-06-29 12:01:28,855 DEBUG [org.hibernate.util.DTDEntityResolver] located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+2012-06-29 12:01:28,948 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: es.indra.agrega.jmx.PropiedadImpl -> PROPIEDAD
+2012-06-29 12:01:28,964 DEBUG [org.hibernate.cfg.HbmBinder] Mapped property: Nombre -> NOMBRE
+2012-06-29 12:01:28,964 DEBUG [org.hibernate.cfg.HbmBinder] Mapped property: Valor -> VALOR
+2012-06-29 12:01:28,964 DEBUG [org.hibernate.cfg.HbmBinder] Mapped property: Descripcion -> DESCRIPCION
+2012-06-29 12:01:28,964 DEBUG [org.hibernate.cfg.HbmBinder] Mapped property: Ejemplo -> EJEMPLO
+2012-06-29 12:01:28,980 INFO  [org.hibernate.dialect.Dialect] Using dialect: org.hibernate.dialect.MySQLDialect
+2012-06-29 12:01:29,027 DEBUG [org.hibernate.cfg.Configuration] processing extends queue
+2012-06-29 12:01:29,027 DEBUG [org.hibernate.cfg.Configuration] processing collection mappings
+2012-06-29 12:01:29,027 DEBUG [org.hibernate.cfg.Configuration] processing native query and ResultSetMapping mappings
+2012-06-29 12:01:29,027 DEBUG [org.hibernate.cfg.Configuration] processing association property references
+2012-06-29 12:01:29,027 DEBUG [org.hibernate.cfg.Configuration] processing foreign key constraints
+2012-06-29 12:01:29,105 DEBUG [org.hibernate.cfg.Configuration] processing extends queue
+2012-06-29 12:01:29,105 DEBUG [org.hibernate.cfg.Configuration] processing collection mappings
+2012-06-29 12:01:29,105 DEBUG [org.hibernate.cfg.Configuration] processing native query and ResultSetMapping mappings
+2012-06-29 12:01:29,105 DEBUG [org.hibernate.cfg.Configuration] processing association property references
+2012-06-29 12:01:29,105 DEBUG [org.hibernate.cfg.Configuration] processing foreign key constraints
+2012-06-29 12:01:29,105 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] Running hbm2ddl schema export
+2012-06-29 12:01:29,105 DEBUG [org.hibernate.tool.hbm2ddl.SchemaExport] import file not found: /import.sql
+2012-06-29 12:01:29,105 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] writing generated schema to file: C:\svn\desarrollo\04_Subsistemas\interfazJMX\core/target/schema-drop.sql
+2012-06-29 12:01:29,105 DEBUG [org.hibernate.tool.hbm2ddl.SchemaExport] 
+    drop table if exists PROPIEDAD;
+2012-06-29 12:01:29,105 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] schema export complete
